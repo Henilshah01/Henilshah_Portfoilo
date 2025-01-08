@@ -5,15 +5,70 @@ h1 {
   border: 4px dashed hotpink;
 }
 
-#navbar{
-  border: 5px solid rgb(115, 105, 255);
-  background-color: rgb(107, 244, 125,0.5);
-  border-radius: 20px;
-  padding: 10px;
-  width: 240px;
+#name{
+  font-family: Georgia, serif;
+  font-weight: bolder;
+  display: inline;    
 }
 
-.degree {
+#intro {
+  font-family: Georgia, serif;
+  font-weight: bolder;
+}
+
+.Skills{
+  height: 220px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px orangered;
+  transition: 2s;
+}
+
+.Skills:hover{
+  box-shadow: 0px 8px 16px orangered; 
+}
+
+.project{
+  height: 220px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px lime;
+  transition: 2s;
+}
+
+.project:hover{
+  box-shadow: 0px 8px 16px lime; 
+}
+
+img{
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.desc{
+  padding: 0 2px 0 2px;
+}
+
+#navbar {
+  border: 5px solid rgb(115, 105, 255);
+  background-color: rgb(107, 244, 125, 0.5);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#degree {
   border: 5px solid rgb(115, 105, 255);
   background-color: rgb(107, 244, 125);
   border-radius: 20px;
@@ -48,35 +103,35 @@ form {
   width: 200px;
 }
 
-#pics {
-  border: 12px solid rgb(107, 244, 125);
-  background-color: #45ccd3;
-  border-radius: 10px;
-  padding-left: 40px;
-  padding-right: 80px;
+#pics{
+  margin-right: 500px;
+}
+.pics {
+  border-radius: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 280px;
   width: 200px;
-  margin-left: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  transform: scale(1.5);
+  box-shadow: 6px 6px 10px rgb(190, 105, 196);
+  display: inline-block;
 }
 
 #info {
-  background-color: rgb(107, 244, 125,0.5);
+  background-color: rgb(107, 244, 125, 0.5);
   border: 5px solid rgb(115, 105, 255);
   border-radius: 20px;
   width: 240px;
 }
 
-li{
+li {
   display: inline;
-}
-
-#Skills {
-  background-color: rgb(107, 244, 125);
-  border: 5px solid rgb(115, 105, 255);
-  border-radius: 20px;
-  width: 200px;
 }
 
 #Project {
@@ -102,7 +157,7 @@ li{
   transition: 1s;
 }
 
-.archery-button:hover{
+.archery-button:hover {
   border-radius: 15px;
 }
 

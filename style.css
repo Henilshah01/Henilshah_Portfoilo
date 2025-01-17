@@ -1,3 +1,7 @@
+body{
+  background-color:rgb(60, 36, 156);
+  color: white;
+}
 h1 {
   color: blue;
   font-family: Georgia, serif;
@@ -5,10 +9,10 @@ h1 {
   border: 4px dashed hotpink;
 }
 
-#name{
+#name {
   font-family: Georgia, serif;
   font-weight: bolder;
-  display: inline;    
+  margin-top: 50px;
 }
 
 #intro {
@@ -16,24 +20,35 @@ h1 {
   font-weight: bolder;
 }
 
-.Skills{
+#skills{
+  text-align: center;
+}
+.Skills {
   height: 220px;
   width: 200px;
+  text-align: center;
   border: 2px solid black;
   display: inline-block;
-  margin: 10px;
+  margin-left: 580px;
+  margin-right: 580px;
+  margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px orangered;
   transition: 2s;
 }
 
-.Skills:hover{
-  box-shadow: 0px 8px 16px orangered; 
+.Skills:hover {
+  box-shadow: 0px 8px 16px orangered;
 }
 
-.project{
+#project{
+  text-align: center;
+}
+
+.project {
   height: 220px;
   width: 200px;
+  text-align: center;
   border: 2px solid black;
   display: inline-block;
   margin: 10px;
@@ -42,35 +57,35 @@ h1 {
   transition: 2s;
 }
 
-.project:hover{
-  box-shadow: 0px 8px 16px lime; 
+.project:hover {
+  box-shadow: 0px 8px 16px lime;
 }
 
-img{
+img {
   width: 100%;
   border-radius: 3px 3px 0 0;
 }
 
-.desc{
+.desc {
   padding: 0 2px 0 2px;
 }
 
 #navbar {
-  border: 5px solid rgb(115, 105, 255);
-  background-color: rgb(107, 244, 125, 0.5);
+  border: 5px solid rgb(191, 188, 222);
+  background-color: rgb(208, 171, 23, 0.9);
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
   width: 240px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 #degree {
-  border: 5px solid rgb(115, 105, 255);
-  background-color: rgb(107, 244, 125);
+  border: 5px solid rgb(191, 188, 222);
+  background-color: rgb(208, 171, 23);
   border-radius: 20px;
   width: 200px;
 }
@@ -80,7 +95,7 @@ h1::first-letter {
 }
 
 h3::selection {
-  background-color: aquamarine
+  background-color: rgb(12, 166, 114)
 }
 
 #Submit {
@@ -96,16 +111,17 @@ h3::selection {
   color: white;
 }
 
-form {
-  background-color: rgb(107, 244, 125);
-  border: 5px solid rgb(115, 105, 255);
+.Contact {
+  background-color: rgb(212, 131, 17);
+  border: 5px solid rgb(191, 188, 222);
   border-radius: 10px;
   width: 200px;
 }
 
-#pics{
+#pics {
   margin-right: 500px;
 }
+
 .pics {
   border-radius: 200px;
   padding-left: 20px;
@@ -125,7 +141,7 @@ form {
 
 #info {
   background-color: rgb(107, 244, 125, 0.5);
-  border: 5px solid rgb(115, 105, 255);
+  border: 5px solid rgb(191, 188, 222);
   border-radius: 20px;
   width: 240px;
 }
@@ -136,14 +152,14 @@ li {
 
 #Project {
   background-color: rgb(107, 244, 125);
-  border: 5px solid rgb(115, 105, 255);
+  border: 5px solid rgb(191, 188, 222);
   border-radius: 20px;
   width: 200px;
 }
 
 #Accounts {
-  background-color: rgb(107, 244, 125);
-  border: 5px solid rgb(115, 105, 255);
+  background-color: rgb(212, 131, 17);
+  border: 5px solid rgb(191, 188, 222);
   border-radius: 20px;
   width: 220px;
 }
@@ -283,8 +299,8 @@ a {
 
 ul {
   list-style: none;
-  border: 5px solid rgb(115, 105, 255);
-  background-color: rgb(107, 244, 125);
+  border: 5px solid rgb(191, 188, 222);
+  background-color: rgb(212, 131, 17);
   border-radius: 20px;
   padding: 10px;
   width: 240px;

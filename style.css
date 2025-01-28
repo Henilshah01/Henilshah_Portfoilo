@@ -23,14 +23,19 @@ h1 {
 #skills{
   text-align: center;
 }
+
+#icons:hover{
+  transform: scale(1.2);
+}
+
 .Skills {
-  height: 220px;
-  width: 200px;
+  height: 80px;
+  width: 400px;
+  display: flex;
   text-align: center;
   border: 2px solid black;
-  display: inline-block;
-  margin-left: 580px;
-  margin-right: 580px;
+  margin-left: 480px;
+  margin-right: 480px;
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px orangered;
@@ -175,6 +180,10 @@ li {
 
 .archery-button:hover {
   border-radius: 15px;
+}
+
+.btn btnsuccess{
+  background-color: aqua;
 }
 
 a {

@@ -10,6 +10,9 @@ h1 {
     border: 4px dashed hotpink;
 }
 
+.navbar-nav{
+    margin-left: auto;
+}
 #name {
     font-family: Georgia, serif;
     font-weight: bolder;
@@ -61,7 +64,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 4px 8px lime;
     transition: 2s;
-}
+}   
 
 .project:hover {
     box-shadow: 0px 8px 16px lime;
@@ -156,18 +159,18 @@ li {
     display: inline;
 }
 
-#Project {
+.Project {
     background-color: rgb(107, 244, 125);
     border: 5px solid rgb(191, 188, 222);
     border-radius: 20px;
     width: 200px;
 }
 
-#Accounts {
+.Accounts {
     background-color: rgb(212, 131, 17);
     border: 5px solid rgb(191, 188, 222);
     border-radius: 20px;
-    width: 220px;
+    width: 200px;
 }
 
 .archery-button {
@@ -183,7 +186,7 @@ li {
     border-radius: 15px;
 }
 
-.btn btnsuccess {
+.btn {
     background-color: aqua;
 }
 

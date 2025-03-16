@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(60, 36, 156);
+    background-color: #00ABE4;
     color: white;
 }
 
@@ -54,7 +54,7 @@ h1 {
     text-align: center;
 }
 
-.project {
+.project-container {
     height: 220px;
     width: 200px;
     text-align: center;
@@ -77,6 +77,7 @@ img {
 
 .desc {
     padding: 0 2px 0 2px;
+    font-size: larger;
 }
 
 #navbar {
